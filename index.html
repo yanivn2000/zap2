@@ -135,11 +135,11 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/buildWebGL.loader.js";
+        const loaderUrl = buildUrl + "/buildWebGL-scene.loader.js";
         const config = {
-            dataUrl: buildUrl + "/buildWebGL.data.unityweb",
-            frameworkUrl: buildUrl + "/buildWebGL.framework.js.unityweb",
-            codeUrl: buildUrl + "/buildWebGL.wasm.unityweb",
+            dataUrl: buildUrl + "/buildWebGL-scene.data.unityweb",
+            frameworkUrl: buildUrl + "/buildWebGL-scene.framework.js.unityweb",
+            codeUrl: buildUrl + "/buildWebGL-scene.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "zap2",
